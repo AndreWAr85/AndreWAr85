@@ -75,7 +75,7 @@ width: 527px;
 height: 21px;
 }
 
-.header__menu {}
+
 
 .header__menu-list {
 display: flex;
@@ -83,7 +83,7 @@ align-items: center;
 justify-content: space-between;
 }
 
-.menu__list {}
+
 
 .header__link  {
    
@@ -174,7 +174,6 @@ width: 700px;
 height: 95px;
 background: rgba(255, 255, 255, 0.0);
 font-family: 'Aleo';
-font-family: var(Aleo);
 font-style: italic;
 font-weight: 400;
 font-size: 24px;
@@ -268,4 +267,6 @@ color: #FFFFFF;
 
 .contacts__links-youtube 
 
-.contacts__links-twitter 
+.contacts__links-twitter {
+   color: #FFFFFF;
+}
