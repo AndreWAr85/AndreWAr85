@@ -1,0 +1,271 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+.body {
+   max-width: 1440px;
+   min-width: 1440px;
+}
+
+.header {
+position: absolute;
+display: block;
+width: 1440px;
+height: 90px;
+left: 0px;
+top: 0px;
+
+background: rgba(242, 120, 92, 0.7);
+box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+.container {
+display: flex;
+align-items: center;
+/*justify-content: space-around;*/
+justify-content: space-between;
+height: 100%;
+}
+
+
+.travel__portal-container {
+display: flex;
+align-items: center;
+/*justify-content: flex-start;*/
+width: 220px;
+height: 31px;
+margin: 0px 0px 0px 120px;
+}
+.travel__portal-containerlogo {
+align-items: center;
+/*justify-content: flex-start;*/
+}
+
+.travel__portal-containertext {
+width: 185px;
+height: 31px;
+/*justify-content:flex-end;*/
+font-family: 'Magra';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+
+}
+
+.menu__container {
+
+width: 527px;
+height: 21px;
+}
+
+.header__menu {}
+
+.header__menu-list {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.menu__list {}
+
+.header__link  {
+   
+width: 95px;
+height: 21px;
+
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+
+.login {
+width: 103px;
+height: 41px;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+background: #0D606F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+color: #FFFFFF;
+margin: 0px 120px 0px 0px;
+}
+
+.main 
+
+.preview {
+margin-top: -124px;
+padding-top: 125px;
+height: 765px;
+width: 1440px;
+background-image: url(../assets/img/garrett-parker-DlkF4-dbCOU-unsplash.jpg) ;
+background-repeat: round;
+}
+
+.container__preview {
+width: 892px;
+height: 422px;
+margin: 122px 0px 0px 120px;
+}
+
+.header__preview {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+
+color: #FFFFFF;
+
+}
+
+.text__preview {
+width: 723px;
+height: 24px;
+left: 120px;
+top: 346px;
+
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.planing {
+ display: flex;
+ justify-content:space-between;
+position: absolute;
+width: 892px;
+height: 95px;
+left: 120px;
+top: 416px;
+background: rgba(255, 255, 255, 0.7);
+border-radius: 16px;
+
+}
+.planing__text {
+width: 700px;
+height: 95px;
+background: rgba(255, 255, 255, 0.0);
+font-family: 'Aleo';
+font-family: var(Aleo);
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+padding: 0px 0px 0px 41px;
+color: #F2785C;
+}
+
+.planing__button {
+padding: 13.5px 32px;
+width: 228px;
+height: 59px;
+background: #0D606F;
+box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+margin: auto 18px;
+}
+
+.start {
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+.steps 
+
+.container__steps 
+
+.header__steps 
+
+.row__steps 
+
+.steps__column 
+
+.steps__column-icon 
+
+.steps__column-text 
+
+.destinations 
+
+.container__destinations 
+
+.header__destinations 
+
+.row__destinations 
+
+.destinations__slider 
+
+.destinations__slider-country 
+
+.row__destinations-point 
+
+.point 
+
+.point__activ 
+
+.button__destinations 
+
+.stories 
+
+.container__stories 
+
+.header__stories 
+
+.travel__stories 
+
+.travel__stories-row 
+
+.trevel__stories-left 
+
+.trevel__stories-ride 
+
+.read 
+
+.button__stories 
+
+.footer 
+
+.block__footer 
+
+.footer__copy 
+
+.footer__contacts 
+
+.contacts__links 
+
+.contacts__links-instagram 
+
+.contacts__links-youtube 
+
+.contacts__links-twitter 
