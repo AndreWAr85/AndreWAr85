@@ -147,13 +147,12 @@ width: 723px;
 height: 24px;
 left: 120px;
 top: 346px;
-
+padding: 30px 0px;
 font-family: 'Aleo';
 font-style: italic;
 font-weight: 700;
 font-size: 20px;
 line-height: 24px;
-/* identical to box height */
 color: #FFFFFF;
 }
 
@@ -201,72 +200,363 @@ line-height: 32px;
 color: #FFFFFF;
 }
 
-.steps 
+.steps {
+}
 
-.container__steps 
+.container__steps {
 
-.header__steps 
+} 
 
-.row__steps 
+.header__steps {
+position: relative;
+width: 611px;
+height: 53px;
+left: calc(50% - 611px/2);
+top: calc(50% - 53px/2 - 97px);
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+margin: 80px 0px 40px 0px;
+text-align: center;
+}
 
-.steps__column 
+.row__steps {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
 
-.steps__column-icon 
+.steps__column {
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+width: 250px;
+height: 250px;
+}
 
-.steps__column-text 
+.steps__column-icon {
+width: 100px;
+height: 100px;
+background-color: #F2785C;
+border-radius: 10px;
+}
+.steps__column-icons {
+margin: 24px 24px 24px 24px;
+height: 52px;
+width: 52px;
+
+}
+.steps__column-text {
+position: relative;
+width: 317px;
+height: 24px;
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #0D606F;
+text-align: center;
+margin: 30px 30px;
+}
 
 .destinations 
 
-.container__destinations 
+.container__destinations {
 
-.header__destinations 
+}
 
-.row__destinations 
+.header__destinations {
+position: relative;
+width: 501px;
+height: 53px;
+left: calc(50% - 501px/2);
+top: calc(50% - 53px/2 - 97px);
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+margin: 80px 0px 40px 0px;
+text-align: center;
+}
 
-.destinations__slider 
+.row__destinations {
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
-.destinations__slider-country 
+.destinations__slider-1 {
+background: url(/travel/assets/img/Rectangle\ 23.jpg);
+display: flex;
+flex-wrap:nowrap;
+width: 800px;
+min-width: 800px;
+max-height: 800px;
+height: 800px;
+margin: 30px 30px;
+justify-content: center;
+border-radius: 16px;
+}
+.destinations__slider-2 {
+   background: url(/travel/assets/img/Rectangle\ 24.jpg);
+display: flex;
+flex-wrap:nowrap;
+width: 800px;
+min-width: 800px;
+max-height: 800px;
+height: 800px;
+margin: 30px 30px;
+justify-content: center;
+border-radius: 16px;
+}
 
-.row__destinations-point 
+.destinations__slider-3 {
+background: url(/travel/assets/img/Rectangle\ 25.jpg);
+display: flex;
+flex-wrap:nowrap;
+width: 800px;
+min-width: 800px;
+max-height: 800px;
+height: 800px;
+margin: 30px 30px;
+justify-content: center;
+border-radius: 16px;
+}
 
-.point 
+.destinations__slider-country {
+position: relative;
+width: 108px;
+height: 42px;
+left: calc(50% - 108px/2 - 670px);
+top: calc(50% - 42px/2 + 339px);
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 42px;
 
-.point__activ 
+color: #FFFFFF;
+}
 
-.button__destinations 
 
-.stories 
+.row__destinations-point {
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
-.container__stories 
+.point {
+background: rgba(242, 120, 92, 0.5);
+border-radius: 50%;
+margin: 5px;
+width: 20px;
+height: 20px;
+}
 
-.header__stories 
+.point__activ {
+background: #F2785C;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+}
 
-.travel__stories 
+.button__destinations {
+width: 228px;
+height: 59px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #0D606F;
+box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+margin: 40px 607px 40px 607px;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
 
-.travel__stories-row 
+color: #FFFFFF;
+}
 
-.trevel__stories-left 
+.stories{
+position: relative;
+width: 1440px;
+height: 1494px;
+left: 0px;
+top: 0px;
+background: url(/travel/assets/img/Rectangle\ 27stories.jpg) no-repeat top center/cover;
+}
 
-.trevel__stories-ride 
 
-.read 
 
-.button__stories 
+.container__stories {
+background: rgba(255, 255, 255, 0.7);
+height: 1430px;
+}
+   
 
-.footer 
+.header__stories {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 1440px;
+height: 133px;
+text-align: center;
+background-color: #FFFFFF;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
 
-.block__footer 
+}
 
-.footer__copy 
+.travel__stories {
+width: 1315px;
+height: 1274px;
+}
 
-.footer__contacts 
+.travel__stories-row {
+   display: flex;
+}
 
-.contacts__links 
+.trevel__stories-left {
+width: 400px;
+height: 250px;
+margin: 40px 40px 0px 120px;
+filter: drop-shadow(0px 4px 4px #0D606F);
+border-radius: 16px;
+} 
+ .h3 {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+color: #0D606F;
+margin: 40px 0px 24px 0px;
+ }
 
-.contacts__links-instagram 
+ .trevel__stories-ride {
+width: 760px;
+height: 184px;
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #0D606F;
+}
 
-.contacts__links-youtube 
+.read {
+font-weight: 600;
+text-decoration: underline;
+}
+
+.button__stories {
+   width: 228px;
+   height: 59px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #0D606F;
+   box-shadow: 0px 0px 3px rgb(13 96 111 / 8%), 0px 2px 3px rgb(13 96 111 / 16%);
+   border-radius: 10px;
+   margin: auto;
+   margin-top: -81px;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 32px;
+   color: #FFFFFF;
+}
+
+.footer {
+text-align: center;
+margin-top: -61px;
+height: 61px;
+position: absolute;
+width: 1440px;
+}
+
+.block__footer {
+width: 1440px;
+height: 61px;
+}
+
+.footer__copy {
+width: 1440px;
+height: 61px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+
+}
+
+.footer__contacts {
+width: 1440px;
+height: 60px;
+position: absolute;
+margin-top: -61px;
+}
+
+.contacts__links {
+display: flex;
+justify-content: flex-end;
+margin: 0px 123px;
+}
+
+.contacts__links-instagram {
+width: 60px;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.contacts__links-youtube {
+width: 60px;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
 .contacts__links-twitter {
-   color: #FFFFFF;
+width: 60px;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer__you {
+position: relative;
+left: 10px;
+right: ;
+padding: 0px 0px 0px 0px;
+}
+
+.footer__tube {
+position: relative;
+left: ;
+right: 14px;
+top: 6px;
+padding: 0px 0px 0px 0px;
 }
