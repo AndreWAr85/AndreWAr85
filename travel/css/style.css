@@ -200,12 +200,10 @@ line-height: 32px;
 color: #FFFFFF;
 }
 
-.steps {
-}
+/*.steps {
+}*/
 
-.container__steps {
-
-} 
+/*.container__steps {} */
 
 .header__steps {
 position: relative;
@@ -264,11 +262,9 @@ text-align: center;
 margin: 30px 30px;
 }
 
-.destinations 
+/*.destinations {}*/
 
-.container__destinations {
-
-}
+/*.container__destinations {}*/
 
 .header__destinations {
 position: relative;
@@ -549,13 +545,11 @@ justify-content: center;
 .footer__you {
 position: relative;
 left: 10px;
-right: ;
 padding: 0px 0px 0px 0px;
 }
 
 .footer__tube {
 position: relative;
-left: ;
 right: 14px;
 top: 6px;
 padding: 0px 0px 0px 0px;
