@@ -119,7 +119,7 @@ margin: 0px 120px 0px 0px;
 .preview {
 margin-top: -124px;
 padding-top: 125px;
-height: 765px;
+height: 880px;
 width: 1440px;
 background-image: url(../assets/img/garrett-parker-DlkF4-dbCOU-unsplash.jpg) ;
 background-repeat: round;
@@ -217,7 +217,7 @@ font-weight: 500;
 font-size: 40px;
 line-height: 53px;
 color: #F2785C;
-margin: 80px 0px 40px 0px;
+margin: 80px 0px 10px 0px;
 text-align: center;
 }
 
@@ -278,7 +278,7 @@ font-weight: 500;
 font-size: 40px;
 line-height: 53px;
 color: #F2785C;
-margin: 80px 0px 40px 0px;
+margin: 30px 0px 17px 0px;
 text-align: center;
 }
 
@@ -372,7 +372,7 @@ align-items: center;
 background: #0D606F;
 box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
 border-radius: 10px;
-margin: 40px 607px 40px 607px;
+margin: 40px 607px 20px 607px;
 font-family: 'Red Hat Text';
 font-style: normal;
 font-weight: 500;
