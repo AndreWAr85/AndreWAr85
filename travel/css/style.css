@@ -1,0 +1,556 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+.body {
+   max-width: 1440px;
+   min-width: 1440px;
+}
+
+.header {
+position: absolute;
+display: block;
+width: 1440px;
+height: 90px;
+left: 0px;
+top: 0px;
+
+background: rgba(242, 120, 92, 0.7);
+box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+.container {
+display: flex;
+align-items: center;
+/*justify-content: space-around;*/
+justify-content: space-between;
+height: 100%;
+}
+
+
+.travel__portal-container {
+display: flex;
+align-items: center;
+/*justify-content: flex-start;*/
+width: 220px;
+height: 31px;
+margin: 0px 0px 0px 120px;
+}
+.travel__portal-containerlogo {
+align-items: center;
+/*justify-content: flex-start;*/
+}
+
+.travel__portal-containertext {
+width: 185px;
+height: 31px;
+/*justify-content:flex-end;*/
+font-family: 'Magra';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+
+}
+
+.menu__container {
+
+width: 527px;
+height: 21px;
+}
+
+
+
+.header__menu-list {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+
+.header__link  {
+   
+width: 95px;
+height: 21px;
+
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+
+.login {
+width: 103px;
+height: 41px;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+background: #0D606F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+color: #FFFFFF;
+margin: 0px 120px 0px 0px;
+}
+
+.main 
+
+.preview {
+margin-top: -124px;
+padding-top: 125px;
+height: 880px;
+width: 1440px;
+background-image: url(../assets/img/garrett-parker-DlkF4-dbCOU-unsplash.jpg) ;
+background-repeat: round;
+}
+
+.container__preview {
+width: 892px;
+height: 422px;
+margin: 122px 0px 0px 120px;
+}
+
+.header__preview {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+
+color: #FFFFFF;
+
+}
+
+.text__preview {
+width: 723px;
+height: 24px;
+left: 120px;
+top: 346px;
+padding: 30px 0px;
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.planing {
+ display: flex;
+ justify-content:space-between;
+position: absolute;
+width: 892px;
+height: 95px;
+left: 120px;
+top: 416px;
+background: rgba(255, 255, 255, 0.7);
+border-radius: 16px;
+
+}
+.planing__text {
+width: 700px;
+height: 95px;
+background: rgba(255, 255, 255, 0.0);
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+padding: 0px 0px 0px 41px;
+color: #F2785C;
+}
+
+.planing__button {
+padding: 13.5px 32px;
+width: 228px;
+height: 59px;
+background: #0D606F;
+box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+margin: auto 18px;
+}
+
+.start {
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+/*.steps {
+}*/
+
+/*.container__steps {} */
+
+.header__steps {
+position: relative;
+width: 611px;
+height: 53px;
+left: calc(50% - 611px/2);
+top: calc(50% - 53px/2 - 97px);
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+margin: 80px 0px 10px 0px;
+text-align: center;
+}
+
+.row__steps {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.steps__column {
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+width: 250px;
+height: 250px;
+}
+
+.steps__column-icon {
+width: 100px;
+height: 100px;
+background-color: #F2785C;
+border-radius: 10px;
+}
+.steps__column-icons {
+margin: 24px 24px 24px 24px;
+height: 52px;
+width: 52px;
+
+}
+.steps__column-text {
+position: relative;
+width: 317px;
+height: 24px;
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #0D606F;
+text-align: center;
+margin: 30px 30px;
+}
+
+/*.destinations {}*/
+
+/*.container__destinations {}*/
+
+.header__destinations {
+position: relative;
+width: 501px;
+height: 53px;
+left: calc(50% - 501px/2);
+top: calc(50% - 53px/2 - 97px);
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+margin: 30px 0px 17px 0px;
+text-align: center;
+}
+
+.row__destinations {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.destinations__slider-1 {
+background: url(/travel/assets/img/Rectangle\ 23.jpg);
+display: flex;
+flex-wrap:nowrap;
+width: 800px;
+min-width: 800px;
+max-height: 800px;
+height: 800px;
+margin: 30px 30px;
+justify-content: center;
+border-radius: 16px;
+}
+.destinations__slider-2 {
+   background: url(/travel/assets/img/Rectangle\ 24.jpg);
+display: flex;
+flex-wrap:nowrap;
+width: 800px;
+min-width: 800px;
+max-height: 800px;
+height: 800px;
+margin: 30px 30px;
+justify-content: center;
+border-radius: 16px;
+}
+
+.destinations__slider-3 {
+background: url(/travel/assets/img/Rectangle\ 25.jpg);
+display: flex;
+flex-wrap:nowrap;
+width: 800px;
+min-width: 800px;
+max-height: 800px;
+height: 800px;
+margin: 30px 30px;
+justify-content: center;
+border-radius: 16px;
+}
+
+.destinations__slider-country {
+position: relative;
+width: 108px;
+height: 42px;
+left: calc(50% - 108px/2 - 670px);
+top: calc(50% - 42px/2 + 339px);
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+
+color: #FFFFFF;
+}
+
+
+.row__destinations-point {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.point {
+background: rgba(242, 120, 92, 0.5);
+border-radius: 50%;
+margin: 5px;
+width: 20px;
+height: 20px;
+}
+
+.point__activ {
+background: #F2785C;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+}
+
+.button__destinations {
+width: 228px;
+height: 59px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #0D606F;
+box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+margin: 40px 607px 20px 607px;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+
+color: #FFFFFF;
+}
+
+.stories{
+position: relative;
+width: 1440px;
+height: 1494px;
+left: 0px;
+top: 0px;
+background: url(/travel/assets/img/Rectangle\ 27stories.jpg) no-repeat top center/cover;
+}
+
+
+
+.container__stories {
+background: rgba(255, 255, 255, 0.7);
+height: 1430px;
+}
+   
+
+.header__stories {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 1440px;
+height: 133px;
+text-align: center;
+background-color: #FFFFFF;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+
+}
+
+.travel__stories {
+width: 1315px;
+height: 1274px;
+}
+
+.travel__stories-row {
+   display: flex;
+}
+
+.trevel__stories-left {
+width: 400px;
+height: 250px;
+margin: 40px 40px 0px 120px;
+filter: drop-shadow(0px 4px 4px #0D606F);
+border-radius: 16px;
+} 
+ .h3 {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+color: #0D606F;
+margin: 40px 0px 24px 0px;
+ }
+
+ .trevel__stories-ride {
+width: 760px;
+height: 184px;
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #0D606F;
+}
+
+.read {
+font-weight: 600;
+text-decoration: underline;
+}
+
+.button__stories {
+   width: 228px;
+   height: 59px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #0D606F;
+   box-shadow: 0px 0px 3px rgb(13 96 111 / 8%), 0px 2px 3px rgb(13 96 111 / 16%);
+   border-radius: 10px;
+   margin: auto;
+   margin-top: -81px;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 32px;
+   color: #FFFFFF;
+}
+
+.footer {
+text-align: center;
+margin-top: -61px;
+height: 61px;
+position: absolute;
+width: 1440px;
+}
+
+.block__footer {
+width: 1440px;
+height: 61px;
+}
+
+.footer__copy {
+width: 1440px;
+height: 61px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+
+}
+
+.footer__contacts {
+width: 1440px;
+height: 60px;
+position: absolute;
+margin-top: -61px;
+}
+
+.contacts__links {
+display: flex;
+justify-content: flex-end;
+margin: 0px 123px;
+}
+
+.contacts__links-instagram {
+width: 60px;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.contacts__links-youtube {
+width: 60px;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.contacts__links-twitter {
+width: 60px;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer__you {
+position: relative;
+left: 10px;
+padding: 0px 0px 0px 0px;
+}
+
+.footer__tube {
+position: relative;
+right: 14px;
+top: 6px;
+padding: 0px 0px 0px 0px;
+}
